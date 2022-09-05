@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: inter, sans serif;
+    color: #fafafa;
+}
+
+/*Logo and nav*/
+
+#logo {
+    float: left;
+    font-size: 200%;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: black;
+    margin: 30px 0 0 30px;
+}
+
+#logo, #nav {
+    line-height: 50px;
+}
+
+#nav li {
+    float: right;
+    list-style: none;
+    letter-spacing: 2px;
+    margin:30px 30px 0 0;
+}
+
+#nav a {
+    text-decoration: none;
+    color: black;
+}
