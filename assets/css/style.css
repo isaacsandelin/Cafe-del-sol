@@ -46,36 +46,25 @@ body {
     font-size: 102%;
 }
 
-/* hero image and text*/
-#hero-outer {
-    height: 600px;
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-}
+/* hero text and image*/
 
 #hero-image {
-    background:url(../images/pexels-igor-starkov-1307698.jpg) no-repeat center center;
+    background: url(../images/backg\ image.png) no-repeat center center;
+    background-size: 100%;
     width: 100%;
     height: 600px;
     clear: both;
 }
 
+#hero-text {
+    color: #fff;
+    font-size: 300%;
+    max-width: 1200px;
+    margin: auto;
 
-#cover-text {
-    color: white;
-    font-size: 150%;
-    letter-spacing: 2px;
-    text-align: center;
-
-    width: 700px;
-    height: auto;
-    padding: 10px 10px 10px 10px;
-    background-color: rgba(0, 0, 0, .70);
-
-    top: 200px;
-    left: 350px;
-
-    position: absolute;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
